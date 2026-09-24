@@ -12,7 +12,11 @@
 - [人間による確認基準](assessment/practice/reviewer-guide.md)
 - [16件のGemini実機受入確認](tests/coach-behavior/acceptance.md)
 
-開始文の全文を会社アカウントのGeminiの新しい通常チャットへ貼り付けます。Gems、Skills、API、自動連携は前提にしません。現在の利用可否は会社の管理者が確認してください。
+文書と教材はGitHub上のリンクから参照します。PC内の保存場所、ファイルのダウンロード・展開、Gitのインストール、過去の配布資料は必要ありません。文書内のファイルパスはリポジトリルートからの相対パスです。
+
+[導入ガイド](docs/getting-started.md)に従って利用するコミットを固定し、GitHubで開始文をRaw表示して全文を会社アカウントのGeminiの新しい通常チャットへ貼り付けます。Gems、Skills、API、自動連携は前提にしません。現在の利用可否は会社の管理者が確認してください。
+
+GitHubは教材の参照・改訂先です。Geminiでの対話と、権限を限定したGoogle Workspaceでの個人記録は別の作業であり、GitHub上でAI実行や個人記録の保存を行う意味ではありません。
 
 ## 管理範囲と完成度
 
@@ -43,7 +47,7 @@ P1/P2（重要度）、AI増分（大・中・維持）、開発期、職務別�
 
 `framework/` 能力定義／`learning/` 練習教材／`assessment/` 診断設計と公開確認基準／`coaches/` 指導仕様／`templates/` 空の記録様式／`tests/` 実機確認／`docs/` 運用・移管記録。
 
-[開発計画](docs/roadmap.md)、[貢献方法](CONTRIBUTING.md)、[版・評価原則](framework/assessment-principles.md)を参照してください。既存v0.1のXLSXを上書きせず、数式付きブックの公開用移管と配布物の自動生成は後続作業に分けています。
+[開発計画](docs/roadmap.md)、[貢献方法](CONTRIBUTING.md)、[版・評価原則](framework/assessment-principles.md)を参照してください。現在提供している記録様式は[空のMarkdown](templates/learning-record.md)と[ヘッダーのみのCSV](templates/spreadsheets/README.md)です。数式付きブックと配布物の自動生成は未実装であり、リポジトリ外のブックを利用の前提にはしません。
 
 ## ライセンス
 
