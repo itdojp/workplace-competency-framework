@@ -1,0 +1,17 @@
+# Prevent accidental addition; not an access-control mechanism.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.DS_Store
+Thumbs.db
+local-data/
+private-data/
+learner-records/
+evaluation-records/
+exports/
+dist/
+*.xlsx
+*.zip
