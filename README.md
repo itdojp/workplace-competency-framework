@@ -10,7 +10,7 @@
 - [W-A1 読解・説明理解の開始文](learning/W-A1/start.txt)
 - [W-B1 目的・課題・要件の定義の開始文](learning/W-B1/start.txt)
 - [人間による確認基準](assessment/practice/reviewer-guide.md)
-- [16件のGemini実機受入確認](tests/coach-behavior/acceptance.md)
+- [20件のGemini実機受入確認](tests/coach-behavior/acceptance.md)
 
 文書と教材はGitHub上のリンクから参照します。PC内の保存場所、ファイルのダウンロード・展開、Gitのインストール、過去の配布資料は必要ありません。文書内のファイルパスはリポジトリルートからの相対パスです。
 
@@ -27,7 +27,7 @@ GitHubは教材の参照・改訂先です。Geminiでの対話と、権限を�
 | 診断36件・ワーク36件 | 設計台帳。36件の問題本文や教材が完成した意味ではない |
 | 統合診断6ケース | [設計](assessment/design/integrated-cases.csv)のみ。問題本文は未制作 |
 | W-A1・W-B1 | v0.2-draftの固定開始文・公開練習教材 |
-| 実機受入16ケース | 未実施。静的なファイル検査とは別 |
+| 実機受入20ケース | 未実施。静的なファイル検査とは別 |
 | 記録テンプレート | MarkdownとヘッダーのみのCSV。実データなし |
 | 自動採点・採否決定・Googleへの自動保存 | 実装しない／未実装 |
 
@@ -36,6 +36,15 @@ GitHubは教材の参照・改訂先です。Geminiでの対話と、権限を�
 能力体系は個人が判断・行動できる内容を定義します。組織スキルマップと後継者計画は評価結果を使う管理資料・計画であり、能力そのものではありません。行動規範、現在能力、実績、学習変化、職務別要求を分けます。
 
 P1/P2（重要度）、AI増分（大・中・維持）、開発期、職務別要求水準は別軸です。学習支援の利用を減点せず、初回答、修正、別課題への適用を区別します。AIは観察コメント案を作るだけで、人間の能力水準や採否を確定しません。
+
+## 委任・監督の補足設計
+
+- [I4を中心とした行動基準](framework/delegation-and-oversight.md)：許可・制御・介入・受入を区別する補足案
+- [本人・AI・環境の根拠の帰属](assessment/practice/evidence-attribution.md)と[空の観察補助様式](templates/delegation-observation.md)
+- [コーチ実行環境の事前確認](tests/coach-behavior/runtime-preflight.md)：管理者側の確認。実値は非公開で記録
+- [W-I4・D-I4・DX06の追加仕様](assessment/design/delegation-scenarios.md)：設計案のみ。実行用開始文・完成問題は未制作
+
+既存36能力、重要度、AI増分、制作期は維持します。W-A1/W-B1の実機受入を先行し、新しい仕様の掲載を全社員配付や採用利用の承認とはしません。
 
 ## 正本と非公開データ
 

@@ -29,7 +29,7 @@
 | W-A1開始文 | [learning/W-A1/start.txt](../learning/W-A1/start.txt) |
 | W-B1開始文 | [learning/W-B1/start.txt](../learning/W-B1/start.txt) |
 | 人間による確認基準 | [assessment/practice/reviewer-guide.md](../assessment/practice/reviewer-guide.md) |
-| 実機受入16ケース | [tests/coach-behavior/acceptance.md](../tests/coach-behavior/acceptance.md) |
+| 実機受入20ケース | [tests/coach-behavior/acceptance.md](../tests/coach-behavior/acceptance.md) |
 | 個人用記録の空テンプレート | [templates/learning-record.md](../templates/learning-record.md) |
 
 ## 利用する版を固定する
@@ -41,6 +41,12 @@
 本文の教材版とコミットIDは別の情報です。教材版が同じでも文書修正でコミットは変わります。`main`へマージ済みであることは、実機受入済みを意味しません。
 
 参考：[GitHubのコミット固定リンク](https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files)。
+
+## 実行環境の事前確認
+
+教材確認担当者は、試行前に管理者または権限を持つ確認者と[実行環境・停止手段の確認票](../tests/coach-behavior/runtime-preflight.md)を確認します。AIの自己説明ではなく、実施時点の公式資料・会社画面で確認できた範囲を非公開記録へ残します。行動テストの適合と、環境の権限制限・停止確認は別です。
+
+重要な範囲や停止手段が未確認なら通常の開始と全社員配付を保留し、管理者へ確認します。観測不能な点を明記した架空資料限定試行を管理者が別途承認する場合だけ、その条件で試行できます。利用者が設定変更・権限取得・本番操作で確認してはいけません。
 
 ## W-A1の試行
 
