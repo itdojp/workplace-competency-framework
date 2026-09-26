@@ -18,3 +18,16 @@
 先行作業はW-A1とW-B1の実機受入です。Geminiでまだ実行していないため、動作適合も学習効果も未確認です。小規模試行は操作性・明瞭さ・評価者間の差を確認する段階で、採用後の成果予測の検証ではありません。
 
 後続の技術作業：数式付きGoogle用テンプレートの公開版移管、教材から開始文を生成する処理、静的CI、Release、Gems/Skillsアダプター。プログラムのライセンスと権限を決めてから実装します。自動人事評価・自動採否は対象外です。
+
+## Issue #3〜#6の要否と段階（2026-09-24）
+
+4件とも既存原則の不足を補うため採用する。ただし「新しいAI能力分類」「全員への管理者権限」「監視基盤の新設」「全記録への列追加」は採用しない。
+
+| Issue | 判断・順序 | 本改訂の到達点 | 残る作業 |
+|---|---|---|---|
+| [#6](https://github.com/itdojp/workplace-competency-framework/issues/6) | 試行前に優先 | [環境確認票](../tests/coach-behavior/runtime-preflight.md)、T17〜T20の追加設計 | 管理者の環境確認、既存ケースを含む実機受入 |
+| [#3](https://github.com/itdojp/workplace-competency-framework/issues/3) | 教材拡張の基準として必要 | [補足基準](../framework/delegation-and-oversight.md)に横断対応・I4水準・職種例を具体化 | 制度責任者・職務代表による適用範囲と要求水準の承認 |
+| [#5](https://github.com/itdojp/workplace-competency-framework/issues/5) | #3と一緒に整理 | [帰属の原則](../assessment/practice/evidence-attribution.md)と[空様式](../templates/delegation-observation.md) | 記録負担・閲覧者・保存範囲の確認。実データ移行なし |
+| [#4](https://github.com/itdojp/workplace-competency-framework/issues/4) | 必要だが段階実施 | [固定素材の追加仕様](../assessment/design/delegation-scenarios.md) | 素材・開始文・診断フォーム制作、複数評価者確認、実機受入、学習効果確認 |
+
+CSVの簡潔な行動基準と各台帳の状態は維持し、具体例はリンクした補足文書で管理する。W-I4・D-I4・DX06を制作済みにしない。#3/#5の基準レビュー後に#4の素材制作へ進められるが、W-I4の実機展開よりW-A1/W-B1の受入を優先する。確認できていない工程をIssue上でも完了にしない。
