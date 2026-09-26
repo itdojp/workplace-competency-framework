@@ -19,7 +19,7 @@
 
 後続の技術作業：数式付きGoogle用テンプレートの公開版移管、教材から開始文を生成する処理、静的CI、Release、Gems/Skillsアダプター。プログラムのライセンスと権限を決めてから実装します。自動人事評価・自動採否は対象外です。
 
-## Issue #3〜#6の要否と段階（2026-09-24）
+## Issue #3〜#6の要否と段階（2026-09-27更新）
 
 4件とも既存原則の不足を補うため採用する。ただし「新しいAI能力分類」「全員への管理者権限」「監視基盤の新設」「全記録への列追加」は採用しない。
 
@@ -28,6 +28,10 @@
 | [#6](https://github.com/itdojp/workplace-competency-framework/issues/6) | 試行前に優先 | [環境確認票](../tests/coach-behavior/runtime-preflight.md)、T17〜T20の追加設計 | 管理者の環境確認、既存ケースを含む実機受入 |
 | [#3](https://github.com/itdojp/workplace-competency-framework/issues/3) | 教材拡張の基準として必要 | [補足基準](../framework/delegation-and-oversight.md)に横断対応・I4水準・職種例を具体化 | 制度責任者・職務代表による適用範囲と要求水準の承認 |
 | [#5](https://github.com/itdojp/workplace-competency-framework/issues/5) | #3と一緒に整理 | [帰属の原則](../assessment/practice/evidence-attribution.md)と[空様式](../templates/delegation-observation.md) | 記録負担・閲覧者・保存範囲の確認。実データ移行なし |
-| [#4](https://github.com/itdojp/workplace-competency-framework/issues/4) | 必要だが段階実施 | [固定素材の追加仕様](../assessment/design/delegation-scenarios.md) | 素材・開始文・診断フォーム制作、複数評価者確認、実機受入、学習効果確認 |
+| [#4](https://github.com/itdojp/workplace-competency-framework/issues/4) | 必要だが段階実施 | [固定教材・開始文・公開確認フォーム](../learning/W-I4/README.md)を制作。確認ガイドと6件の校正用架空回答も追加 | 複数評価者確認、W-A1/W-B1に続く実機受入、学習効果確認 |
 
-CSVの簡潔な行動基準と各台帳の状態は維持し、具体例はリンクした補足文書で管理する。W-I4・D-I4・DX06を制作済みにしない。#3/#5の基準レビュー後に#4の素材制作へ進められるが、W-I4の実機展開よりW-A1/W-B1の受入を優先する。確認できていない工程をIssue上でも完了にしない。
+能力辞書・行動基準・重要度・制作期は維持する。PR #7のマージ後、W-I4・D-I4・DX06を公開試作まで制作し、各設計台帳を実物と一致させた。制作と静的確認は、実機適合・学習効果の確認ではない。W-I4の実機展開よりW-A1/W-B1の受入を優先する。確認できていない工程をIssue上でも完了にしない。
+
+## 次に確認すること
+
+教材確認担当者は[環境事前確認](../tests/coach-behavior/runtime-preflight.md)とW-A1/W-B1の20ケースを先行実施する。評価担当者2名は[校正用の架空回答K01〜K06](../assessment/practice/delegation-reviewer-guide.md)を独立確認し、相違を非公開記録へ残す。その後W-I4の8ケースを実機確認する。実施者・日付・会社設定は未設定・未確認であり、本書の掲載で承認済みにはしない。
