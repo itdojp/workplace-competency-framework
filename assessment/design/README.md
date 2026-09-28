@@ -4,13 +4,18 @@ CSVは台帳データ、以下の表はGitHubで教材を開くための案内�
 
 ## 台帳と教材
 
-「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミット`d777cfb608b32d1b097d2607e0461a2bb611dbac`へのリンクです。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
+「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミットへのリンク（委任教材は`d777cfb608b32d1b097d2607e0461a2bb611dbac`、数量・検証教材は`4e178ec3604b4e8be40227d8df2ac90bbb140847`）です。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
 
 | 対象ID | CSV台帳 | この版の教材 | 台帳の固定参照先 |
 |---|---|---|---|
 | D-I4 | [assessment/design/diagnostics.csv](diagnostics.csv) | [assessment/practice/D-I4.md](../practice/D-I4.md) | [D-I4・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/d777cfb608b32d1b097d2607e0461a2bb611dbac/assessment/practice/D-I4.md) |
 | DX06 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX06.md](../practice/DX06.md) | [DX06・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/d777cfb608b32d1b097d2607e0461a2bb611dbac/assessment/practice/DX06.md) |
 | W-I4 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-I4/materials.md](../../learning/W-I4/materials.md) | [W-I4固定資料・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/d777cfb608b32d1b097d2607e0461a2bb611dbac/learning/W-I4/materials.md) |
+| W-A3 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-A3/materials.md](../../learning/W-A3/materials.md) | [W-A3・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/learning/W-A3/materials.md) |
+| W-C3 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-C3/materials.md](../../learning/W-C3/materials.md) | [W-C3・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/learning/W-C3/materials.md) |
+| DX02 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX02.md](../practice/DX02.md) | [DX02・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/assessment/practice/DX02.md) |
+
+数量・検証教材の確認は[numeric-reviewer-guide.md](../practice/numeric-reviewer-guide.md)を使用します。D-A3・D-C3の単独診断は未制作です。
 
 W-I4の開始・中断方法は[learning/W-I4/README.md](../../learning/W-I4/README.md)、人間による確認は[assessment/practice/delegation-reviewer-guide.md](../practice/delegation-reviewer-guide.md)を参照してください。固定教材と同じコミットから確認基準も開き、異なる版を混ぜません。公開試作・実機未検証であり、固定URLがあることは運用承認や採用試験の妥当性を意味しません。
 
