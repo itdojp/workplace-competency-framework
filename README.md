@@ -25,9 +25,10 @@ GitHubは教材の参照・改訂先です。Geminiでの対話と、権限を�
 | 9領域36能力、重要度、AI増分、開発期 | [能力辞書](framework/competencies.csv)に移管。すべて設計案 |
 | 36能力の行動基準 | [初期基準](framework/behavioral-anchors.csv)。うち24能力は骨子 |
 | 診断36件・ワーク36件 | 設計台帳。36件の問題本文や教材が完成した意味ではない |
-| 統合診断6ケース | [設計](assessment/design/integrated-cases.csv)のみ。問題本文は未制作 |
+| 統合診断6ケース | [台帳](assessment/design/integrated-cases.csv)。DX06のみ公開試作フォームを制作、他5件は未制作 |
 | W-A1・W-B1 | v0.2-draftの固定開始文・公開練習教材 |
-| 実機受入20ケース | 未実施。静的なファイル検査とは別 |
+| W-I4・D-I4・DX06 | 0.1-draftの固定教材・公開確認課題。複数評価者校正・実機・効果は未確認 |
+| 実機受入 | W-A1/W-B1の20ケースとW-I4専用8ケース。すべて未実施。静的確認とは別 |
 | 記録テンプレート | MarkdownとヘッダーのみのCSV。実データなし |
 | 自動採点・採否決定・Googleへの自動保存 | 実装しない／未実装 |
 
@@ -42,7 +43,9 @@ P1/P2（重要度）、AI増分（大・中・維持）、開発期、職務別�
 - [I4を中心とした行動基準](framework/delegation-and-oversight.md)：許可・制御・介入・受入を区別する補足案
 - [本人・AI・環境の根拠の帰属](assessment/practice/evidence-attribution.md)と[空の観察補助様式](templates/delegation-observation.md)
 - [コーチ実行環境の事前確認](tests/coach-behavior/runtime-preflight.md)：管理者側の確認。実値は非公開で記録
-- [W-I4・D-I4・DX06の追加仕様](assessment/design/delegation-scenarios.md)：設計案のみ。実行用開始文・完成問題は未制作
+- [W-I4教材・開始文](learning/W-I4/README.md)、[D-I4](assessment/practice/D-I4.md)、[DX06](assessment/practice/DX06.md)：公開試作
+- [評価者用確認基準・校正用架空回答](assessment/practice/delegation-reviewer-guide.md)、[W-I4専用受入](tests/coach-behavior/acceptance-w-i4.md)
+- [追加仕様と制作・検証の状態](assessment/design/delegation-scenarios.md)：制作と受入・学習効果を分離
 
 既存36能力、重要度、AI増分、制作期は維持します。W-A1/W-B1の実機受入を先行し、新しい仕様の掲載を全社員配付や採用利用の承認とはしません。
 
