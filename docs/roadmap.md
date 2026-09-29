@@ -35,3 +35,11 @@
 ## 次に確認すること
 
 教材確認担当者は[環境事前確認](../tests/coach-behavior/runtime-preflight.md)とW-A1/W-B1の20ケースを先行実施する。評価担当者2名は[校正用の架空回答K01〜K06](../assessment/practice/delegation-reviewer-guide.md)を独立確認し、相違を非公開記録へ残す。その後W-I4の8ケースを実機確認する。実施者・日付・会社設定は未設定・未確認であり、本書の掲載で承認済みにはしない。
+
+## 数量理解・結果検証の制作（2026-09-28）
+
+[Issue #9](https://github.com/itdojp/workplace-competency-framework/issues/9)として第1期の[W-A3](../learning/W-A3/README.md)・[W-C3](../learning/W-C3/README.md)・[DX02](../assessment/practice/DX02.md)を固定試作へ具体化した。教材2件、公開確認フォーム1件を追加するもので、全36能力の完成や既存Issueの終了を意味しない。
+
+数値と開始文の同一性は静的確認、[専用受入12ケース](../tests/coach-behavior/acceptance-numeric.md)は実機未実施。[人間の確認ガイド](../assessment/practice/numeric-reviewer-guide.md)の架空回答も複数評価者による確認は未実施。先行する環境・W-A1/W-B1・W-I4の受入計画を維持し、教材制作は並行して進められるが配付承認とは分離する。
+
+後続の第1期制作候補はA4/D1（根拠と不確実性）、C1/C2（段取りと相談）。追加前にオープンIssueと試行で見つかった不具合を再確認し、実機受入での重要な不適合を教材追加より優先する。

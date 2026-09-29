@@ -25,10 +25,11 @@ GitHubは教材の参照・改訂先です。Geminiでの対話と、権限を�
 | 9領域36能力、重要度、AI増分、開発期 | [能力辞書](framework/competencies.csv)に移管。すべて設計案 |
 | 36能力の行動基準 | [初期基準](framework/behavioral-anchors.csv)。うち24能力は骨子 |
 | 診断36件・ワーク36件 | 設計台帳。36件の問題本文や教材が完成した意味ではない |
-| 統合診断6ケース | [台帳](assessment/design/integrated-cases.csv)。DX06のみ公開試作フォームを制作、他5件は未制作 |
+| 統合診断6ケース | [台帳](assessment/design/integrated-cases.csv)。DX02・DX06の公開試作フォームを制作、他4件は未制作 |
 | W-A1・W-B1 | v0.2-draftの固定開始文・公開練習教材 |
 | W-I4・D-I4・DX06 | 0.1-draftの固定教材・公開確認課題。複数評価者校正・実機・効果は未確認 |
-| 実機受入 | W-A1/W-B1の20ケースとW-I4専用8ケース。すべて未実施。静的確認とは別 |
+| W-A3・W-C3・DX02 | 0.1-draftの固定教材・公開確認フォーム。計算の静的確認と学習効果は別 |
+| 実機受入 | W-A1/W-B1の20ケース、W-I4専用8ケース、数量・検証の専用12ケース。すべて未実施。静的確認とは別 |
 | 記録テンプレート | MarkdownとヘッダーのみのCSV。実データなし |
 | 自動採点・採否決定・Googleへの自動保存 | 実装しない／未実装 |
 
@@ -48,6 +49,12 @@ P1/P2（重要度）、AI増分（大・中・維持）、開発期、職務別�
 - [追加仕様と制作・検証の状態](assessment/design/delegation-scenarios.md)：制作と受入・学習効果を分離
 
 既存36能力、重要度、AI増分、制作期は維持します。W-A1/W-B1の実機受入を先行し、新しい仕様の掲載を全社員配付や採用利用の承認とはしません。
+
+## 数量理解・結果検証の教材
+
+[W-A3 数字を照合する](learning/W-A3/README.md)、[W-C3 成果を独立検証する](learning/W-C3/README.md)、[DX02 公開確認フォーム](assessment/practice/DX02.md)を追加しました。単位・対象期間・明細計算と、指定版・点検根拠・未確認を区別する練習です。合計だけ一致する誤りや、数値は正しいが完了を断定できない例も扱います。
+
+[確認ガイド](assessment/practice/numeric-reviewer-guide.md)と[専用受入確認](tests/coach-behavior/acceptance-numeric.md)を参照してください。新教材も実機・学習効果は未検証で、W-A1/W-B1の先行受入を省略しません。
 
 ## 正本と非公開データ
 
