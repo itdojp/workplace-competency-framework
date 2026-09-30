@@ -8,13 +8,15 @@
 | [W-C3](W-C3/README.md) | 品質基準・結果検証 | 0.1-draft | 固定教材・実機未検証 |
 | [W-A4](W-A4/README.md) | 情報探索・情報源評価 | 0.1-draft | 固定教材・実機未検証 |
 | [W-D1](W-D1/README.md) | 理解・限界の自己認識 | 0.1-draft | 固定教材・実機未検証 |
+| [W-C1](W-C1/README.md) | 計画・段取り・優先順位 | 0.1-draft | 固定教材・実機未検証 |
+| [W-C2](W-C2/README.md) | 進捗管理・相談 | 0.1-draft | 固定教材・実機未検証 |
 | [W-I4](W-I4/README.md) | 委任・自動化・監督 | 0.1-draft | 固定教材・実機未検証 |
 
 各`start.txt`は、原資料・設問・支援指示を含む独立実行用の固定原本です。過去の配布物は必要ありません。[導入ガイド](../docs/getting-started.md)に従い、GitHub上でコミットを固定してRawから全文をコピーします。日付・人数は架空です。現在時刻に合わせて自動更新しません。W-A1の後にW-B1へ進み、各ワークで新規チャットを使用します。
 
 [work-designs.csv](work-designs.csv)は36件の設計台帳であり、36教材の完成一覧ではありません。台帳の制作状態と上表を併読してください。開始文の自動生成はまだありません。[共通指導仕様](../coaches/common/instructions.md)を改訂する場合は影響する各開始文への反映・版更新・再試験を同じPRで扱います。
 
-W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
+W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX04の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
 
 通常チャット、Gems、Skills等の実行基盤は能力定義から分離します。初期版は会社アカウントのGemini通常チャットでの試行を想定し、必要な会社側の許可を確認してから使います。
 
@@ -35,3 +37,9 @@ W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06の台帳参照先�
 [W-A4](W-A4/README.md)は新旧資料の適用条件と情報源の独立性、[W-D1](W-D1/README.md)は本人の説明可能範囲・不足と、追加資料による判断更新を練習します。固定資料と開始文は各ワークで同一内容を維持します。主資料は別々で、W-D1では追加資料の提示前後を分けて記録します。
 
 [DX03](../assessment/practice/DX03.md)は生成AIなしの初回答用の公開フォームA/Bです。[確認ガイド](../assessment/practice/source-reviewer-guide.md)と[専用受入12ケース](../tests/coach-behavior/acceptance-source.md)を併読してください。単独診断D-A4・D-D1は未制作。全教材は実機・複数評価者・学習効果が未確認で、既存教材の先行受入を置換しません。
+
+## 段取りと期限前の相談
+
+[W-C1](W-C1/README.md)は依存関係・待ち・余裕を含む計画、[W-C2](W-C2/README.md)は残作業・阻害要因と期限前相談を扱います。各開始文と固定資料は全文同一。途中の変更資料は初回答を記録してから提示し、固定の提示状態を本人が実行した実績にしません。
+
+[DX04](../assessment/practice/DX04.md)は生成AIなしの初回計画→統一時点の変更→再計画・相談の公開フォームです。[確認ガイド](../assessment/practice/planning-reviewer-guide.md)と[専用受入12ケース](../tests/coach-behavior/acceptance-planning.md)を参照してください。D-C1・D-C2の単独診断は未制作。会社の環境確認、既存教材の先行受入、複数評価者確認は省略しません。
