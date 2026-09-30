@@ -4,7 +4,7 @@ CSVは台帳データ、以下の表はGitHubで教材を開くための案内�
 
 ## 台帳と教材
 
-「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミットへのリンク（委任教材は`d777cfb608b32d1b097d2607e0461a2bb611dbac`、数量・検証教材は`4e178ec3604b4e8be40227d8df2ac90bbb140847`）です。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
+「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミットへのリンク（委任教材は`d777cfb608b32d1b097d2607e0461a2bb611dbac`、数量・検証教材は`4e178ec3604b4e8be40227d8df2ac90bbb140847`、根拠・不確実性教材は`568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7`）です。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
 
 | 対象ID | CSV台帳 | この版の教材 | 台帳の固定参照先 |
 |---|---|---|---|
@@ -14,6 +14,11 @@ CSVは台帳データ、以下の表はGitHubで教材を開くための案内�
 | W-A3 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-A3/materials.md](../../learning/W-A3/materials.md) | [W-A3・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/learning/W-A3/materials.md) |
 | W-C3 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-C3/materials.md](../../learning/W-C3/materials.md) | [W-C3・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/learning/W-C3/materials.md) |
 | DX02 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX02.md](../practice/DX02.md) | [DX02・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/assessment/practice/DX02.md) |
+| W-A4 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-A4/materials.md](../../learning/W-A4/materials.md) | [W-A4・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7/learning/W-A4/materials.md) |
+| W-D1 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-D1/materials.md](../../learning/W-D1/materials.md) | [W-D1・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7/learning/W-D1/materials.md) |
+| DX03 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX03.md](../practice/DX03.md) | [DX03・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7/assessment/practice/DX03.md) |
+
+根拠・不確実性教材は[source-reviewer-guide.md](../practice/source-reviewer-guide.md)を参照します。D-A4・D-D1の単独診断は未制作です。
 
 数量・検証教材の確認は[numeric-reviewer-guide.md](../practice/numeric-reviewer-guide.md)を使用します。D-A3・D-C3の単独診断は未制作です。
 
