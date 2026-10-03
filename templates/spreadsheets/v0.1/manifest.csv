@@ -1,0 +1,13 @@
+用途,タブ,原本,列数,入力範囲,数式種範囲,初期最終行,参照最終行
+共通,設定,config.tsv,3,説明参照,,8,8
+共通,能力,capabilities.tsv,10,説明参照,,37,37
+共通,参照版,versions.tsv,6,A2:E101,F2:F2,101,501
+管理者,対象者,participants.tsv,5,A2:D101,E2:E2,101,501
+管理者,要求,requirements.tsv,24,A2:U101,V2:X2,101,501
+管理者,根拠,evidence.tsv,19,A2:P101,Q2:S2,101,501
+管理者,評価根拠,evidence-links.tsv,8,A2:B101,C2:H2,101,501
+管理者,評価,evaluations.tsv,30,A2:S101,T2:AD2,101,501
+管理者,育成,plans.tsv,26,A2:U101,V2:Z2,101,501
+本人,学習,learning.tsv,23,A2:R101,S2:W2,101,501
+管理者,案内,dashboard-admin.tsv,8,なし,展開しない,,
+本人,案内,dashboard-learner.tsv,8,なし,展開しない,,
