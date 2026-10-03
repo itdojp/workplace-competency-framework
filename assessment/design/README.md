@@ -4,7 +4,7 @@ CSVは台帳データ、以下の表はGitHubで教材を開くための案内�
 
 ## 台帳と教材
 
-「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミットへのリンク（委任教材は`d777cfb608b32d1b097d2607e0461a2bb611dbac`、数量・検証教材は`4e178ec3604b4e8be40227d8df2ac90bbb140847`、根拠・不確実性教材は`568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7`、段取り・相談教材は`92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2`）です。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
+「この版の教材」は、この文書と同じbranch・コミットに対応するリポジトリ相対リンクです。「台帳の固定参照先」は、CSVに記録した教材初回登録コミットへのリンク（委任教材は`d777cfb608b32d1b097d2607e0461a2bb611dbac`、数量・検証教材は`4e178ec3604b4e8be40227d8df2ac90bbb140847`、根拠・不確実性教材は`568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7`、段取り・相談教材は`92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2`、権限・情報保護教材は`3678534668407f908d3f99f603ccf388cf39dce9`）です。固定参照先を現在の`main`や作業branchのURLへ置き換えません。
 
 | 対象ID | CSV台帳 | この版の教材 | 台帳の固定参照先 |
 |---|---|---|---|
@@ -20,6 +20,13 @@ CSVは台帳データ、以下の表はGitHubで教材を開くための案内�
 | W-C1 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-C1/materials.md](../../learning/W-C1/materials.md) | [W-C1・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2/learning/W-C1/materials.md) |
 | W-C2 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-C2/materials.md](../../learning/W-C2/materials.md) | [W-C2・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2/learning/W-C2/materials.md) |
 | DX04 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX04.md](../practice/DX04.md) | [DX04・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2/assessment/practice/DX04.md) |
+| W-H1 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-H1/materials.md](../../learning/W-H1/materials.md) | [W-H1・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/3678534668407f908d3f99f603ccf388cf39dce9/learning/W-H1/materials.md) |
+| W-H2 | [learning/work-designs.csv](../../learning/work-designs.csv) | [learning/W-H2/materials.md](../../learning/W-H2/materials.md) | [W-H2・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/3678534668407f908d3f99f603ccf388cf39dce9/learning/W-H2/materials.md) |
+| DX05 | [assessment/design/integrated-cases.csv](integrated-cases.csv) | [assessment/practice/DX05.md](../practice/DX05.md) | [DX05・0.1-draft](https://github.com/itdojp/workplace-competency-framework/blob/3678534668407f908d3f99f603ccf388cf39dce9/assessment/practice/DX05.md) |
+
+権限・情報保護教材は[protection-reviewer-guide.md](../practice/protection-reviewer-guide.md)を参照します。D-H1・D-H2の単独診断は未制作です。
+
+[能力別の診断・育成対応](coverage-guide.md)、[36能力のCSV](competency-coverage.csv)、[要求水準の設定方法](../../framework/role-requirements.md)を追加しました。未制作・未測定・未承認を分け、公開練習の存在を能力全体の測定完了とは扱いません。
 
 段取り・相談教材は[planning-reviewer-guide.md](../practice/planning-reviewer-guide.md)を参照します。D-C1・D-C2の単独診断は未制作です。
 

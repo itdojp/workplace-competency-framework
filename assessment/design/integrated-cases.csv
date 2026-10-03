@@ -3,5 +3,5 @@ DX01,依頼を読み解く,A1;B1,架空の依頼文・旧テンプレート・�
 DX02,数字と成果を検査する,A3;C3,固定フォームA/B： https://github.com/itdojp/workplace-competency-framework/blob/4e178ec3604b4e8be40227d8df2ac90bbb140847/assessment/practice/DX02.md,誤りの特定、再計算、確認証跡,15,電卓・表計算可・生成AIなし,専門会計知識が不要な題材にする,公開試作・未検証
 DX03,根拠と不確実性を整理する,A4;D1,固定フォームA/B： https://github.com/itdojp/workplace-competency-framework/blob/568fe843e3f5858aae02d6b696ec3b1bfe3ea7a7/assessment/practice/DX03.md,出典・適用条件・未確認の整理,15,資料配付・固定AI回答のみ（初回答は生成AIなし）,インターネット検索速度の差を採点しない,公開試作・未検証
 DX04,予定変更に対応する,C1;C2,固定フォームA/B： https://github.com/itdojp/workplace-competency-framework/blob/92a0f2bd703ba4e4b93fecd5b5affd712a01f9c2/assessment/practice/DX04.md,段取り、遅延の予告、相談案,15,通常資料可・生成AIなし,初回計画6分で変更提示。事前調整・提示時点・既見を記録し、変更前の回答を保持,公開試作・未検証
-DX05,権限と情報を扱う,H1;H2,架空規程・役割表・架空データ,実施可、承認要、不可と安全な代替,10,規程参照可・実操作なし,採用時も社内規程を事前に配付する,未制作
+DX05,権限と情報を扱う,H1;H2,固定フォームA/B： https://github.com/itdojp/workplace-competency-framework/blob/3678534668407f908d3f99f603ccf388cf39dce9/assessment/practice/DX05.md,実施可、承認要、不可と安全な代替,10,規程参照可・実操作なし・初回答は生成AIなし,採用時も社内規程を事前に配付する,公開試作・未検証
 DX06,指摘を反映して委任し直す,E2;I4,固定問題（A→固定助言→修正→B）： https://github.com/itdojp/workplace-competency-framework/blob/d777cfb608b32d1b097d2607e0461a2bb611dbac/assessment/practice/DX06.md,指摘理由、類似修正、委任・停止条件,20,初回答は生成AIなし→固定助言→別課題,自由なAIモデル差を採点へ混入させない。既見は未見転移としない,公開試作・未検証

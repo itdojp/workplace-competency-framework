@@ -10,13 +10,15 @@
 | [W-D1](W-D1/README.md) | 理解・限界の自己認識 | 0.1-draft | 固定教材・実機未検証 |
 | [W-C1](W-C1/README.md) | 計画・段取り・優先順位 | 0.1-draft | 固定教材・実機未検証 |
 | [W-C2](W-C2/README.md) | 進捗管理・相談 | 0.1-draft | 固定教材・実機未検証 |
+| [W-H1](W-H1/README.md) | ルール・権限境界の判断 | 0.1-draft | 固定教材・実機未検証 |
+| [W-H2](W-H2/README.md) | 安全・情報・権利の保護 | 0.1-draft | 固定教材・実機未検証 |
 | [W-I4](W-I4/README.md) | 委任・自動化・監督 | 0.1-draft | 固定教材・実機未検証 |
 
 各`start.txt`は、原資料・設問・支援指示を含む独立実行用の固定原本です。過去の配布物は必要ありません。[導入ガイド](../docs/getting-started.md)に従い、GitHub上でコミットを固定してRawから全文をコピーします。日付・人数は架空です。現在時刻に合わせて自動更新しません。W-A1の後にW-B1へ進み、各ワークで新規チャットを使用します。
 
 [work-designs.csv](work-designs.csv)は36件の設計台帳であり、36教材の完成一覧ではありません。台帳の制作状態と上表を併読してください。開始文の自動生成はまだありません。[共通指導仕様](../coaches/common/instructions.md)を改訂する場合は影響する各開始文への反映・版更新・再試験を同じPRで扱います。
 
-W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX04の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
+W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX04・W-H1・W-H2・DX05の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
 
 通常チャット、Gems、Skills等の実行基盤は能力定義から分離します。初期版は会社アカウントのGemini通常チャットでの試行を想定し、必要な会社側の許可を確認してから使います。
 
@@ -43,3 +45,9 @@ W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX0
 [W-C1](W-C1/README.md)は依存関係・待ち・余裕を含む計画、[W-C2](W-C2/README.md)は残作業・阻害要因と期限前相談を扱います。各開始文と固定資料は全文同一。途中の変更資料は初回答を記録してから提示し、固定の提示状態を本人が実行した実績にしません。
 
 [DX04](../assessment/practice/DX04.md)は生成AIなしの初回計画→統一時点の変更→再計画・相談の公開フォームです。[確認ガイド](../assessment/practice/planning-reviewer-guide.md)と[専用受入12ケース](../tests/coach-behavior/acceptance-planning.md)を参照してください。D-C1・D-C2の単独診断は未制作。会社の環境確認、既存教材の先行受入、複数評価者確認は省略しません。
+
+## 権限・情報保護と対象能力の選択
+
+[W-H1](W-H1/README.md)は承認者・対象・操作の照合、[W-H2](W-H2/README.md)は情報最小化・共有先・素材条件を扱います。[DX05](../assessment/practice/DX05.md)は別資料での公開確認フォームです。[確認ガイド](../assessment/practice/protection-reviewer-guide.md)と[専用受入12ケース](../tests/coach-behavior/acceptance-protection.md)を参照します。すべて試作・未検証で、H2の身体安全・公平性などは未測定です。
+
+[36能力の診断・育成対応](../assessment/design/coverage-guide.md)から、職務に必要な行動と未測定範囲を確認して1〜2能力を選びます。要求水準・評価の確定は人間の承認後です。第1期の開始文は11/12件、W-E2とDX01は未制作です。D-H1・D-H2単独診断を完成済みと扱わず、公開確認の同一場面を重複計上しません。
