@@ -1,0 +1,37 @@
+能力ID	能力名	重要度	AI増分	開発期	ワークID	ワークパス	教材版	制作状態	マスタ参照コミット
+A1	読解・説明理解	P1	大	第1期	W-A1	learning/W-A1/start.txt	0.2-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+A2	正確な記述・説明	P1	中	第2期	W-A2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+A3	数量・データ理解	P1	中	第1期	W-A3	learning/W-A3/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+A4	情報探索・情報源評価	P1	大	第1期	W-A4	learning/W-A4/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+B1	目的・課題・要件の定義	P1	大	第1期	W-B1	learning/W-B1/start.txt	0.2-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+B2	構造化・論理的推論	P2	大	第2期	W-B2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+B3	仮説形成・原因分析	P2	大	第2期	W-B3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+B4	比較・意思決定	P2	大	第2期	W-B4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+C1	計画・段取り・優先順位	P1	中	第1期	W-C1	learning/W-C1/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+C2	進捗管理・相談	P1	中	第1期	W-C2	learning/W-C2/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+C3	品質基準・結果検証	P1	大	第1期	W-C3	learning/W-C3/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+C4	記録・完了・引継ぎ	P1	中	第2期	W-C4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+D1	理解・限界の自己認識	P1	大	第1期	W-D1	learning/W-D1/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+D2	注意・感情・行動の調整	P2	中	第2期	W-D2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+D3	負荷把握・援助要請	P1	維持	第2期	W-D3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+D4	主体的着手・継続・切替	P2	維持	第2期	W-D4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+E1	学習設計・知識技能の獲得	P2	大	第2期	W-E1			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+E2	フィードバック反映・学習転移	P1	大	第1期	W-E2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+E3	変化への適応・学び直し	P2	大	第2期	W-E3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+E4	実験・振り返り・能力維持	P2	大	第2期	W-E4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+F1	相手の立場・意図の理解	P2	中	第2期	W-F1			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+F2	役割調整・共同遂行	P1	維持	第2期	W-F2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+F3	対立調整・交渉・合意形成	P2	中	第2期	W-F3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+F4	建設的な働きかけ・知識共有	P2	中	第2期	W-F4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+G1	顧客・組織の価値理解	P1	大	第2期	W-G1			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+G2	費用・便益・資源の判断	P2	中	第2期	W-G2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+G3	システム思考・影響範囲の把握	P2	大	第2期	W-G3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+G4	機会発見・創造・改善提案	P2	中	第2期	W-G4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+H1	ルール・権限境界の判断	P1	大	第1期	W-H1	learning/W-H1/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+H2	安全・情報・権利の保護	P1	大	第1期	W-H2	learning/W-H2/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+H3	リスク予防・封じ込め・回復	P1	大	第2期	W-H3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+H4	根拠・責任・不確実性の説明	P1	大	第2期	W-H4			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+I1	道具の選択・基本操作	P1	中	第2期	W-I1			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+I2	情報・文書・資産管理	P1	大	第2期	W-I2			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+I3	必要資源の確保・活用	P2	中	第2期	W-I3			この参照版には未収録	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
+I4	委任・自動化・監督	P2	大	第1期	W-I4	learning/W-I4/start.txt	0.1-draft	試作・実機未検証	a59545025fe339d0f85b0ce7e2aff4ca0b2c4217
