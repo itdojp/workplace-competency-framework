@@ -12,13 +12,14 @@
 | [W-C2](W-C2/README.md) | 進捗管理・相談 | 0.1-draft | 固定教材・実機未検証 |
 | [W-H1](W-H1/README.md) | ルール・権限境界の判断 | 0.1-draft | 固定教材・実機未検証 |
 | [W-H2](W-H2/README.md) | 安全・情報・権利の保護 | 0.1-draft | 固定教材・実機未検証 |
+| [W-E2](W-E2/README.md) | フィードバック反映・学習転移 | 0.1-draft | 固定教材・実機未検証 |
 | [W-I4](W-I4/README.md) | 委任・自動化・監督 | 0.1-draft | 固定教材・実機未検証 |
 
 各`start.txt`は、原資料・設問・支援指示を含む独立実行用の固定原本です。過去の配布物は必要ありません。[導入ガイド](../docs/getting-started.md)に従い、GitHub上でコミットを固定してRawから全文をコピーします。日付・人数は架空です。現在時刻に合わせて自動更新しません。W-A1の後にW-B1へ進み、各ワークで新規チャットを使用します。
 
 [work-designs.csv](work-designs.csv)は36件の設計台帳であり、36教材の完成一覧ではありません。台帳の制作状態と上表を併読してください。開始文の自動生成はまだありません。[共通指導仕様](../coaches/common/instructions.md)を改訂する場合は影響する各開始文への反映・版更新・再試験を同じPRで扱います。
 
-W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX04・W-H1・W-H2・DX05の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
+W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX04・W-H1・W-H2・DX05・W-E2・DX01の台帳参照先は、[設計台帳と公開教材のリンク一覧](../assessment/design/README.md)から開けます。CSV内では教材初回登録版のGitHub固定URLを記録し、リンク一覧では同じbranch・コミットの教材への相対リンクも提供します。
 
 通常チャット、Gems、Skills等の実行基盤は能力定義から分離します。初期版は会社アカウントのGemini通常チャットでの試行を想定し、必要な会社側の許可を確認してから使います。
 
@@ -50,4 +51,10 @@ W-A3・W-C3・DX02・W-A4・W-D1・DX03・W-I4・D-I4・DX06・W-C1・W-C2・DX0
 
 [W-H1](W-H1/README.md)は承認者・対象・操作の照合、[W-H2](W-H2/README.md)は情報最小化・共有先・素材条件を扱います。[DX05](../assessment/practice/DX05.md)は別資料での公開確認フォームです。[確認ガイド](../assessment/practice/protection-reviewer-guide.md)と[専用受入12ケース](../tests/coach-behavior/acceptance-protection.md)を参照します。すべて試作・未検証で、H2の身体安全・公平性などは未測定です。
 
-[36能力の診断・育成対応](../assessment/design/coverage-guide.md)から、職務に必要な行動と未測定範囲を確認して1〜2能力を選びます。要求水準・評価の確定は人間の承認後です。第1期の開始文は11/12件、W-E2とDX01は未制作です。D-H1・D-H2単独診断を完成済みと扱わず、公開確認の同一場面を重複計上しません。
+[36能力の診断・育成対応](../assessment/design/coverage-guide.md)から、職務に必要な行動と未測定範囲を確認して1〜2能力を選びます。要求水準・評価の確定は人間の承認後です。第1期の開始文は12/12件、統合確認フォームは6/6件の試作を制作しています。実機・人間校正・学習効果の完了ではありません。D-H1・D-H2単独診断を完成済みと扱わず、公開確認の同一場面を重複計上しません。
+
+## 指摘を次の仕事へ適用する
+
+[W-E2](W-E2/README.md)は、固定助言F01の前後、類似箇所、正しい例外の保持、別場面X01を分けます。初回答が正しい人に誤答や不要な修正を要求しません。[固定資料](W-E2/materials.md)と[開始文](W-E2/start.txt)の資料区画は同一です。[別日用Y01・Y02](W-E2/delayed-check.md)は開始文に含めず、人間の確認担当者が実際の別日に提示します。公開問題の既見・支援・実際の間隔を残し、再練習を未見転移としません。
+
+[DX01](../assessment/practice/DX01.md)はA1/B1の独立した公開確認素材です。W-A1/W-B1と異なる主資料を使い、W-E2の事前・事後テストとして流用しません。E2の主な統合確認は引き続きDX06です。[確認ガイド](../assessment/practice/feedback-intake-reviewer-guide.md)、[専用受入12項目](../tests/coach-behavior/acceptance-feedback.md)を参照してください。D-A1・D-B1・D-E2の単独診断は未制作です。

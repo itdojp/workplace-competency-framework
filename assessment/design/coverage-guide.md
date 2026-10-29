@@ -1,18 +1,19 @@
 # 能力・診断・育成先の対応
 
-設計版：0.1-draft／2026-10-02。[Issue #18](https://github.com/itdojp/workplace-competency-framework/issues/18)の設計成果物です。[36能力の対応表](competency-coverage.csv)は、このファイルと同じコミットの教材だけを参照します。能力辞書・重要度・AI増分・制作期を再定義しません。
+設計版：0.2-draft／2026-10-03。[Issue #18](https://github.com/itdojp/workplace-competency-framework/issues/18)の設計成果物です。[36能力の対応表](competency-coverage.csv)は、このファイルと同じコミットの教材だけを参照します。能力辞書・重要度・AI増分・制作期を再定義しません。
 
 ## 何が揃い、何が揃っていないか
-本版には全36IDの行があります。第1期の単独ワーク開始文は11/12件、統合確認フォームは5/6件。W-E2とDX01は[Issue #17](https://github.com/itdojp/workplace-competency-framework/issues/17)で未制作です。DX06でE2を観察できても、W-E2を制作済みにはしません。
+本版には全36IDの行があります。[Issue #17](https://github.com/itdojp/workplace-competency-framework/issues/17)のW-E2・DX01を含め、第1期の単独ワーク開始文は12/12件、統合確認フォームは6/6件の試作を制作しています。E2の確認経路DX06と、学習用のW-E2は別に保持します。
 
-第1期12能力のうち10能力に、公開確認フォームの主評価設問を対応付けています。A1・B1は学習用開始文があるだけで、未見の独立確認経路は未完成です。全フォーム、ワーク、人間校正、実機、学習効果の検証は未完了です。**行が存在すること、教材が存在すること、能力全体を測れたこと、検証済みであることを別に管理します。**
+第1期12能力に、公開確認フォームの主評価設問と育成先を対応付けています。A1・B1はW-A1/W-B1と異なるDX01の素材を使います。公開課題の既見と支援を確認し、未見性を自動的に保証しません。全フォーム、ワーク、人間校正、実機、学習効果の検証は未完了です。**行が存在すること、教材が存在すること、能力全体を測れたこと、検証済みであることを別に管理します。**
 
-24能力は予定される観察と未測定範囲だけを記載し、未制作のファイルへのリンクを作りません。H2は情報と明示された素材条件、A4は配付資料の評価に限られます。未測定範囲を含む総合的な能力水準は、この課題だけでは認定できません。
+24能力は予定される観察と未測定範囲だけを記載し、未制作のファイルへのリンクを作りません。H2は情報と明示された素材条件、A4は配付資料の評価に限られます。A1の口頭理解、B1の実際の合意形成、E2の実務での長期保持なども追加確認が必要です。未測定範囲を含む総合的な能力水準は、この課題だけでは認定できません。
 
 ## 第1期の実在する参照先
 | 能力 | 公開確認フォームと設問 | 育成先 | 確認ガイド |
 |---|---|---|---|
-| A1・B1 | DX01未制作。学習結果を代用しない | [W-A1](../../learning/W-A1/start.txt)、[W-B1](../../learning/W-B1/start.txt) | [学習確認基準](../practice/reviewer-guide.md) |
+| A1 | [DX01](../practice/DX01.md) A-Q1/A-Q2/B-Q1/B-Q2 | [W-A1](../../learning/W-A1/start.txt) | [読解・要件整理](../practice/feedback-intake-reviewer-guide.md) |
+| B1 | [DX01](../practice/DX01.md) A-Q3/A-Q4/B-Q3/B-Q4 | [W-B1](../../learning/W-B1/start.txt) | [読解・要件整理](../practice/feedback-intake-reviewer-guide.md) |
 | A3 | [DX02](../practice/DX02.md) A-Q1/A-Q2/B-Q1/B-Q2 | [W-A3](../../learning/W-A3/README.md) | [数量](../practice/numeric-reviewer-guide.md) |
 | C3 | [DX02](../practice/DX02.md) A-Q3/B-Q2/B-Q3 | [W-C3](../../learning/W-C3/README.md) | [数量](../practice/numeric-reviewer-guide.md) |
 | A4 | [DX03](../practice/DX03.md) フォームA/BのQ1/Q2/Q4 | [W-A4](../../learning/W-A4/README.md) | [根拠](../practice/source-reviewer-guide.md) |
@@ -21,8 +22,10 @@
 | C2 | [DX04](../practice/DX04.md) A-Q2/B-Q2 | [W-C2](../../learning/W-C2/README.md) | [段取り](../practice/planning-reviewer-guide.md) |
 | H1 | [DX05](../practice/DX05.md) A-Q1/A-Q3/B-Q1/B-Q3 | [W-H1](../../learning/W-H1/README.md) | [保護](../practice/protection-reviewer-guide.md) |
 | H2 | [DX05](../practice/DX05.md) A-Q2/B-Q2 | [W-H2](../../learning/W-H2/README.md) | [保護](../practice/protection-reviewer-guide.md) |
-| E2 | [DX06](../practice/DX06.md) A-Q1/A-Q2/B-Q1を前後比較 | W-E2未制作。DX06は確認課題 | [委任](../practice/delegation-reviewer-guide.md) |
+| E2 | [DX06](../practice/DX06.md) A-Q1/A-Q2/B-Q1を前後比較 | [W-E2](../../learning/W-E2/README.md) | [DX06の委任基準](../practice/delegation-reviewer-guide.md)、[W-E2の基準](../practice/feedback-intake-reviewer-guide.md) |
 | I4 | [DX06](../practice/DX06.md) A-Q1/A-Q2/B-Q1。別の確認用に[D-I4](../practice/D-I4.md) | [W-I4](../../learning/W-I4/README.md) | [委任](../practice/delegation-reviewer-guide.md) |
+
+W-E2の[別日用Y01・Y02](../../learning/W-E2/delayed-check.md)は、学習後の補助確認として人間が別日に提示します。対応表の主確認課題DX06を置換せず、実際の課題ID・場面・間隔・既見・支援を記録します。DX01はA1/B1の課題であり、W-E2の改善量を測る前後テストにはしません。
 
 ## CSV列の意味
 課題パス、確認基準パス、ワークパスはリポジトリルート相対パスです。未制作の実物パスは空欄。空欄を能力水準0へ変換しません。「確認課題」は独立確認に使う公開試作を示し、公開練習を採用本番の非公開問題にはしません。
@@ -32,7 +35,7 @@
 「後続Issue」は教材・不足対応の入口です。全行の要求水準承認は#18、人間校正は#21、実機は#6、試行は#22で別に管理します。第2期の群分けは#23を参照し、群番号を重要度や学習の禁止条件にしません。
 
 ## 診断から重点学習へ進む手順
-実行者は評価担当者と本人。GitHubで同じコミットの[能力辞書](../../framework/competencies.csv)、[要求水準様式](../../framework/role-requirements-template.csv)、対応表、問題、確認ガイドを参照します。実施時点は職務要求・支援条件・目的・非公開記録先の承認後。通常の対象PRは該当なし。未マージ版は実在PR・head branch・コミットを記録します。
+実行者は評価担当者と本人。GitHubで同じコミットの[能力辞書](../../framework/competencies.csv)、[要求水準様式](../../framework/role-requirements-template.csv)、対応表、問題、確認ガイドを参照します。実施時点は職務要求・支援条件・目的・非公開記録先の承認後。通常の対象PRは該当なし。未マージ版は実在するPR・head branch・コミットを記録します。
 
 1. 自己チェックでは困っている業務と具体例を聞き、自己申告だけで水準を確定しない。
 2. [要求水準の設定方法](../../framework/role-requirements.md)に従い、その職務で必要な行動と未測定範囲を選ぶ。問題が未制作なら「独立確認待ち」にして必要な観察を別途設計する。
@@ -46,7 +49,7 @@
 ## 同一場面と単独診断ID
 一つの回答で複数能力を観察することはできますが、根拠IDが複数でも同じ場面IDを保持します。支援後の修正は別の独立初回答にはしません。W-A1/W-B1の共通主資料、DX06の初回答と修正を重複加算しません。
 
-[単独診断台帳](diagnostics.csv)のD-*とDX*は同じではありません。D-I4以外の単独フォームを完成済みへ変更していません。統合フォームを使用する場合は実際のDX ID・フォーム・設問で記録し、D-*実施済みと読み替えません。単独診断の公開経路の確定と不足する観察は#18/#17/#23で継続します。
+[単独診断台帳](diagnostics.csv)のD-*とDX*は同じではありません。D-I4以外の単独フォームを完成済みへ変更していません。統合フォームを使用する場合は実際のDX ID・フォーム・設問で記録し、D-*実施済みと読み替えません。単独診断の公開経路の確定と不足する観察は#18/#23で継続します。
 
 ## 人間校正へ渡す境界例
 同じ原回答を前提に、次を[Issue #21](https://github.com/itdojp/workplace-competency-framework/issues/21)で独立確認します。結果は未実施です。
